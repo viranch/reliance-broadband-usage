@@ -1,16 +1,6 @@
-This is basic app that does not install itself.
+Build this app:
+$ cd path/to/source
+$ sh install.sh
 
-Download it:
-
-$ git clone git://github.com/viranch/reliance-broadband-usage.git
-
-or
-
-$ wget -q https://github.com/viranch/reliance-broadband-usage/tarball/master -O - | tar zxv
-
-Run it:
-
-$ cd path/to/reliance-broadband-usage
-$ qmake && make
+Run this app:
 $ ./broadband
-
